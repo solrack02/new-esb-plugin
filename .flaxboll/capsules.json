@@ -19,7 +19,7 @@
         },
         "ccc_fileSeed-1": {
           "capsIptCodeID": "ccc_fileSeed-1",
-          "capsIptCapsValue": []
+          "capsIptCapsValue": ["xxx_strValue1_x"]
         }
       },
       "capsUseDescription": { "en": "", "pt-br": "" },
@@ -32,6 +32,46 @@
       "capsCreatedAt": { "seconds": 1687739918, "nanoseconds": 742000000 },
       "capsID": "xxx_file1_x",
       "capsPrjID": "V726aYN7mxq4LsEUwAXL"
+    }
+  },
+  "xxx_strValue1_x": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "xxx_strValue1_x",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723216218052
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "ccc_text-2",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "caps_text_1"
+          }
+        }
+      },
+      "capsUseFSPath": "src/index.tsx",
+      "capsCodeID": "ccc_stringValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723216218052],
+      "capsUseLabel": {
+        "pt-br": "valor string",
+        "en": ""
+      },
+      "capsUseDescription": {
+        "pt-br": "xxx",
+        "en": ""
+      },
+      "capsUseInputs": {
+        "ccc_stringValue-0": {
+          "capsIptCodeID": "ccc_stringValue-0",
+          "capsIptTxtValue": "aaax"
+        }
+      },
+      "capsUseConections": "1"
     }
   }
 }
