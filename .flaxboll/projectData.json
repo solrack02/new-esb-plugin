@@ -12,7 +12,7 @@
 
   "projectInfo": {
     "capsInitID": "xxx_file1_x",
-    "capsProjectID": "caps_project_1",
+    "capsProjectID": "xxx_strValue1_x",
     "groupsControl":{
         "ggg_1": {
             "capsGroupID": "ggg_1",
