@@ -1,129 +1,218 @@
 {
-  "xxx_dir1": {
-    "capsType": "useCode",
-    "capsUseCodeInfo": {
-      "capsUseFSPath": "root",
-      "parents": {
-        "conn_1": {
-          "connID": "conn_1",
-          "capsParentIptID": "",
-          "parentData": {
-            "parentConnID": "",
-            "capsParentID": ""
-          }
-        }
-      },
-      "capsUseConections": "1",
-      "capsUseLabel": {
-        "pt-br": "root",
-        "en": "root"
-      },
-      "capsUseInputs": {
-        "ccc_dirSeed-0": {
-          "capsIptCodeID": "ccc_dirSeed-0",
-          "capsIptTxtValue": "root"
+    "xxx_dir1": {
+        "capsType": "useCode",
+        "capsUseCodeInfo": {
+            "capsUseFSPath": "/",
+            "parents": {
+                "conn_1": {
+                    "connID": "conn_1",
+                    "capsParentIptID": "",
+                    "parentData": {
+                        "parentConnID": "",
+                        "capsParentID": ""
+                    }
+                }
+            },
+            "capsUseConections": "1",
+            "capsUseLabel": {
+                "pt-br": "root/",
+                "en": "root/"
+            },
+            "capsUseInputs": {
+                "sss_dirSystem-0": {
+                    "capsIptCodeID": "sss_dirSystem-0",
+                    "capsIptTxtValue": ""
+                },
+                "sss_dirSystem-1": {
+                    "capsIptCodeID": "sss_dirSystem-1",
+                    "capsIptCapsValue": [
+                        "xxx_file1_x"
+                    ]
+                }
+            },
+            "capsUseDescription": {
+                "en": "",
+                "pt-br": "a"
+            },
+            "capsUpdatedAt": [
+                {
+                    "seconds": 1687739918,
+                    "nanoseconds": 742000000
+                }
+            ],
+            "capsCodeID": "sss_dirSystem",
+            "capsCodeVersionID": "1"
         },
-        "ccc_dirSeed-1": {
-          "capsIptCodeID": "ccc_dirSeed-1",
-          "capsIptCapsValue": ["xxx_file1_x"]
+        "capsDB": {
+            "capsUserID": "",
+            "capsCreatedAt": {
+                "seconds": 1687739918,
+                "nanoseconds": 742000000
+            },
+            "capsID": "xxx_dir1",
+            "capsPrjID": "V726aYN7mxq4LsEUwAXL"
         }
-      },
-      "capsUseDescription": {
-        "en": "",
-        "pt-br": "a"
-      },
-      "capsUpdatedAt": [
-        {
-          "seconds": 1687739918,
-          "nanoseconds": 742000000
-        }
-      ],
-      "capsCodeID": "ccc_dirSeed",
-      "capsCodeVersionID": "1"
     },
-    "capsDB": {
-      "capsUserID": "",
-      "capsCreatedAt": {
-        "seconds": 1687739918,
-        "nanoseconds": 742000000
-      },
-      "capsID": "xxx_dir1",
-      "capsPrjID": "V726aYN7mxq4LsEUwAXL"
-    }
-  },
-  "xxx_file1_x": {
-    "capsType": "useCode",
-    "capsUseCodeInfo": {
-      "capsUseFSPath": "root/index.tsx",
-      "parents": {
-        "conn_1": {
-          "connID": "conn_1",
-          "capsParentIptID": "ccc_dirSeed-1",
-          "parentData": { "parentConnID": "conn_1", "capsParentID": "xxx_dir1" }
-        }
-      },
-      "capsUseConections": "1",
-      "capsUseLabel": { "pt-br": "index.tsx", "en": "index.tsx" },
-      "capsUseInputs": {
-        "ccc_fileSeed-0": {
-          "capsIptCodeID": "ccc_fileSeed-0",
-          "capsIptTxtValue": "index.tsx"
+    "xxx_file1_x": {
+        "capsType": "useCode",
+        "capsUseCodeInfo": {
+            "capsUseFSPath": "src/",
+            "parents": {
+                "conn_1": {
+                    "connID": "conn_1",
+                    "capsParentIptID": "sss_dirSystem-1",
+                    "parentData": {
+                        "parentConnID": "conn_1",
+                        "capsParentID": "xxx_dir1"
+                    }
+                }
+            },
+            "capsUseConections": "1",
+            "capsUseLabel": {
+                "pt-br": "index.tsx",
+                "en": "index.tsx"
+            },
+            "capsUseInputs": {
+                "sss_fileSystem-0": {
+                    "capsIptCodeID": "sss_fileSystem-0",
+                    "capsIptTxtValue": "index.tsx"
+                },
+                "sss_fileSystem-1": {
+                    "capsIptCodeID": "sss_fileSystem-1",
+                    "capsIptCapsValue": [
+                        "caps_project_1"
+                    ]
+                }
+            },
+            "capsUseDescription": {
+                "en": "",
+                "pt-br": ""
+            },
+            "capsUpdatedAt": [
+                {
+                    "seconds": 1687739918,
+                    "nanoseconds": 742000000
+                }
+            ],
+            "capsCodeVersionID": "1",
+            "capsCodeID": "sss_fileSystem"
         },
-        "ccc_fileSeed-1": {
-          "capsIptCodeID": "ccc_fileSeed-1",
-          "capsIptCapsValue": ["xxx_strValue1_x"]
+        "capsDB": {
+            "capsUserID": "",
+            "capsCreatedAt": {
+                "seconds": 1687739918,
+                "nanoseconds": 742000000
+            },
+            "capsID": "xxx_file1_x",
+            "capsPrjID": "V726aYN7mxq4LsEUwAXL"
         }
-      },
-      "capsUseDescription": { "en": "", "pt-br": "" },
-      "capsUpdatedAt": [{ "seconds": 1687739918, "nanoseconds": 742000000 }],
-      "capsCodeVersionID": "1",
-      "capsCodeID": "ccc_fileSeed"
     },
-    "capsDB": {
-      "capsUserID": "",
-      "capsCreatedAt": { "seconds": 1687739918, "nanoseconds": 742000000 },
-      "capsID": "xxx_file1_x",
-      "capsPrjID": "V726aYN7mxq4LsEUwAXL"
-    }
-  },
-  "xxx_strValue1_x": {
-    "capsType": "useCode",
-    "capsDB": {
-      "capsID": "xxx_strValue1_x",
-      "capsPrjID": "ppp_01",
-      "capsUserID": "uuu_01",
-      "capsCreatedAt": 1723216218052
+    "caps_project_1": {
+        "capsType": "useCode",
+        "capsUseCodeInfo": {
+            "capsCodeID": "ccc_project",
+            "capsUseFSPath": "src/index.tsx",
+            "parents": {
+                "conn_1": {
+                    "connID": "conn_1",
+                    "capsParentIptID": "ccc_fileSeed-1",
+                    "parentData": {
+                        "parentConnID": "conn_1",
+                        "capsParentID": "xxx_file1_x"
+                    }
+                }
+            },
+            "capsUseConections": "1",
+            "capsUseLabel": {
+                "en": "",
+                "pt-br": "Start Morfos"
+            },
+            "capsCodeVersionID": "1",
+            "capsUseInputs": {
+                "ccc_project-0": {
+                    "capsIptCodeID": "ccc_project-0",
+                    "capsIptTxtValue": "ab0login"
+                },
+                "ccc_project-1": {
+                    "capsIptCodeID": "ccc_project-1",
+                    "capsIptCapsValue": []
+                },
+                "ccc_project-2": {
+                    "capsIptCodeID": "ccc_project-2",
+                    "capsIptCapsValue": []
+                },
+                "ccc_project-3": {
+                    "capsIptCapsValue": [],
+                    "capsIptCodeID": "ccc_project-3"
+                }
+            },
+            "capsUseDescription": {
+                "en": "",
+                "pt-br": "home"
+            },
+            "capsUpdatedAt": [
+                {
+                    "seconds": 1687739918,
+                    "nanoseconds": 742000000
+                }
+            ]
+        },
+        "capsDB": {
+            "capsUserID": "",
+            "capsCreatedAt": {
+                "seconds": 1687739918,
+                "nanoseconds": 742000000
+            },
+            "capsID": "caps_project_1",
+            "capsPrjID": "V726aYN7mxq4LsEUwAXL"
+        }
     },
-    "capsUseCodeInfo": {
-      "parents": {
-        "conn_1": {
-          "connID": "conn_1",
-          "capsParentIptID": "ccc_text-2",
-          "parentData": {
-            "parentConnID": "conn_1",
-            "capsParentID": "caps_text_1"
-          }
+    "caps_project_1_B": {
+        "capsType": "useCode",
+        "capsUseCodeInfo": {
+            "capsCodeID": "sss_stringValue",
+            "capsUseFSPath": "src/index.tsx",
+            "parents": {
+                "conn_1": {
+                    "connID": "conn_1",
+                    "capsParentIptID": "sss_fileSystem-1",
+                    "parentData": {
+                        "parentConnID": "conn_1",
+                        "capsParentID": "xxx_file1_x"
+                    }
+                }
+            },
+            "capsUseConections": "1",
+            "capsUseLabel": {
+                "en": "",
+                "pt-br": "Start Morfos"
+            },
+            "capsCodeVersionID": "1",
+            "capsUseInputs": {
+                "sss_stringValue-0": {
+                    "capsIptCodeID": "sss_stringValue-0",
+                    "capsIptTxtValue": "\nconsole.log(\"Ha Ha Ha\")\n"
+                }
+            },
+            "capsUseDescription": {
+                "en": "",
+                "pt-br": "home"
+            },
+            "capsUpdatedAt": [
+                {
+                    "seconds": 1687739918,
+                    "nanoseconds": 742000000
+                }
+            ]
+        },
+        "capsDB": {
+            "capsUserID": "",
+            "capsCreatedAt": {
+                "seconds": 1687739918,
+                "nanoseconds": 742000000
+            },
+            "capsID": "caps_project_1",
+            "capsPrjID": "V726aYN7mxq4LsEUwAXL"
         }
-      },
-      "capsUseFSPath": "root/strValue1.tsx",
-      "capsCodeID": "ccc_stringValue",
-      "capsCodeVersionID": "1",
-      "capsUpdatedAt": [1723216218052],
-      "capsUseLabel": {
-        "pt-br": "valor string",
-        "en": ""
-      },
-      "capsUseDescription": {
-        "pt-br": "xxx",
-        "en": ""
-      },
-      "capsUseInputs": {
-        "ccc_stringValue-0": {
-          "capsIptCodeID": "ccc_stringValue-0",
-          "capsIptTxtValue": "() => <></>"
-        }
-      },
-      "capsUseConections": "1"
     }
-  }
 }
