@@ -68,7 +68,7 @@
       "capsUseInputs": {
         "ccc_stringValue-0": {
           "capsIptCodeID": "ccc_stringValue-0",
-          "capsIptTxtValue": "aaax"
+          "capsIptTxtValue": "() => <></>"
         }
       },
       "capsUseConections": "1"
