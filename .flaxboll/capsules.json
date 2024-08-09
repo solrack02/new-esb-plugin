@@ -2,7 +2,7 @@
   "xxx_file1_x": {
     "capsType": "useCode",
     "capsUseCodeInfo": {
-      "capsUseFSPath": "root/index.tsx",
+      "capsUseFSPath": "index.tsx",
       "parents": {
         "conn_1": {
           "connID": "conn_1",
@@ -53,7 +53,7 @@
           }
         }
       },
-      "capsUseFSPath": "src/index.tsx",
+      "capsUseFSPath": "stringValue.tsx",
       "capsCodeID": "ccc_stringValue",
       "capsCodeVersionID": "1",
       "capsUpdatedAt": [1723216218052],
