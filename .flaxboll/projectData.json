@@ -11,7 +11,7 @@
   },
 
   "projectInfo": {
-    "capsInitID": "xxx_file1_x",
+    "capsInitID": "xxx_dir1",
     "capsProjectID": "xxx_strValue1_x",
     "groupsControl":{
         "ggg_1": {
