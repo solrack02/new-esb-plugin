@@ -1,8 +1,60 @@
 {
+  "xxx_dir1": {
+    "capsType": "useCode",
+    "capsUseCodeInfo": {
+      "capsUseFSPath": "root",
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "",
+          "parentData": {
+            "parentConnID": "",
+            "capsParentID": ""
+          }
+        }
+      },
+      "capsUseConections": "1",
+      "capsUseLabel": {
+        "pt-br": "root",
+        "en": "root"
+      },
+      "capsUseInputs": {
+        "ccc_dirSeed-0": {
+          "capsIptCodeID": "ccc_dirSeed-0",
+          "capsIptTxtValue": "root"
+        },
+        "ccc_dirSeed-1": {
+          "capsIptCodeID": "ccc_dirSeed-1",
+          "capsIptCapsValue": ["xxx_file1_x"]
+        }
+      },
+      "capsUseDescription": {
+        "en": "",
+        "pt-br": "a"
+      },
+      "capsUpdatedAt": [
+        {
+          "seconds": 1687739918,
+          "nanoseconds": 742000000
+        }
+      ],
+      "capsCodeID": "ccc_dirSeed",
+      "capsCodeVersionID": "1"
+    },
+    "capsDB": {
+      "capsUserID": "",
+      "capsCreatedAt": {
+        "seconds": 1687739918,
+        "nanoseconds": 742000000
+      },
+      "capsID": "xxx_dir1",
+      "capsPrjID": "V726aYN7mxq4LsEUwAXL"
+    }
+  },
   "xxx_file1_x": {
     "capsType": "useCode",
     "capsUseCodeInfo": {
-      "capsUseFSPath": "index.tsx",
+      "capsUseFSPath": "root/index.tsx",
       "parents": {
         "conn_1": {
           "connID": "conn_1",
@@ -53,7 +105,7 @@
           }
         }
       },
-      "capsUseFSPath": "stringValue.tsx",
+      "capsUseFSPath": "root/strValue1.tsx",
       "capsCodeID": "ccc_stringValue",
       "capsCodeVersionID": "1",
       "capsUpdatedAt": [1723216218052],
