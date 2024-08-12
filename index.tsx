@@ -1,6 +1,6 @@
 
             // file: index.tsx
-            "`
+            "
 
 // ---------- import React Packs
 
@@ -75,6 +75,5 @@ RN.AppRegistry.runApplication("Router", {
 rootTag: document.getElementById("root"),
 
 });
-
-`"
+"
         
