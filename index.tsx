@@ -3,7 +3,7 @@
             ""// ---------- import React Packs
 import React from 'react';
 import * as RN from 'react-native';
-import {testModule} from "src/index.ts";
+import {testModule} from 'root/src/index.ts';
 
 // ---------- import Variables Pack
 import { create } from 'zustand';
