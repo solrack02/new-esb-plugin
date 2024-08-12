@@ -1,40 +1,4 @@
 
             // file: index.tsx
-            """"// ---------- import React Packs
-import React from 'react';
-import * as RN from 'react-native';
-
-// ---------- import Variables Pack
-import { create } from 'zustand';
-
-// ---------- import Local Tools
-
-// ---------- set Caps Inputs
-const currRoute = '!#!initial screen!#!'
-
-const screens = [
-  !#!Lista de Telas!#!
-]
-
-const initCt = () => ({
-  !#!Lista de Variáveis!#!
-});
-
-const arrInitFuncs = [
-  !#!Start Functions!#!
-];
-
-// ---------- set Main Component
-export default function Router() {
-
-  return (
-    <RN.Text>Ola OLD!</RN.Text>
-  );
-};
-
-RN.AppRegistry.registerComponent("Router", () => Router);
-
-RN.AppRegistry.runApplication("Router", {
-rootTag: document.getElementById("root"),
-});""
+            """// ---------- import React Packs\\nimport React from 'react';\\nimport * as RN from 'react-native';\\n\\n// ---------- import Variables Pack\\nimport { create } from 'zustand';\\n\\n// ---------- import Local Tools\\n\\n// ---------- set Caps Inputs\\nconst currRoute = '!#!initial screen!#!'\\n\\nconst screens = [\\n  !#!Lista de Telas!#!\\n]\\n\\nconst initCt = () => ({\\n  !#!Lista de Variáveis!#!\\n});\\n\\nconst arrInitFuncs = [\\n  !#!Start Functions!#!\\n];\\n\\n// ---------- set Main Component\\nexport default function Router() {\\n\\n  return (\\n    <RN.Text>Ola OLD!</RN.Text>\\n  );\\n};\\n\\nRN.AppRegistry.registerComponent(\\\"Router\\\", () => Router);\\n\\nRN.AppRegistry.runApplication(\\\"Router\\\", {\\nrootTag: document.getElementById(\\\"root\\\"),\\n});"""
         
