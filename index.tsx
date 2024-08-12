@@ -21,7 +21,7 @@ const arrInitFuncs = [
 
 export default function Router() {
 
-  return (
+  return 
     <RN.Text>Ola OLD!</RN.Text>
   );
 };
@@ -30,5 +30,5 @@ RN.AppRegistry.registerComponent("Router", () => Router);
 
 RN.AppRegistry.runApplication("Router", {
 rootTag: document.getElementById("root"),
-});"
+});("
         
