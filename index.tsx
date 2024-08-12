@@ -12,17 +12,11 @@ import { create } from 'zustand';
 // ---------- set Caps Inputs
 const currRoute = '!#!initial screen!#!'
 
-const screens = [
-  !#!Lista de Telas!#!
-]
+const screens = []
 
-const initCt = () => ({
-  !#!Lista de Variáveis!#!
-});
+const initCt = () => ({});
 
-const arrInitFuncs = [
-  !#!Start Functions!#!
-];
+const arrInitFuncs = [];
 
 // ---------- set Main Component
 export default function Router() {
