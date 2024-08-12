@@ -21,8 +21,6 @@ const arrInitFuncs = [];
 // ---------- set Main Component
 export default function Router() {
 
-  testModule();
-
   return (
     <RN.Text>Ola OLD!</RN.Text>
   );
