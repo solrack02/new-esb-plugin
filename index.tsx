@@ -1,6 +1,6 @@
 
             // file: index.tsx
-            ""// ---------- import React Packs
+            "// ---------- import React Packs
 import React from 'react';
 import * as RN from 'react-native';
 
@@ -30,5 +30,5 @@ RN.AppRegistry.registerComponent("Router", () => Router);
 
 RN.AppRegistry.runApplication("Router", {
 rootTag: document.getElementById("root"),
-});""
+});"
         
