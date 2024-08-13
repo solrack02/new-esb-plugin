@@ -9,7 +9,7 @@ import { testModule } from './root/src/index.ts';
 
 // ---------- set Main Component
 export default function Router() {
-  testModule();
+
 
   return (<RN.Text>Basic React Component</RN.Text>);
 };
