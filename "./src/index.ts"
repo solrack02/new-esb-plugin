@@ -1,4 +1,0 @@
-
-            // file: "./src/index.ts"
-            ""export const testModule = () => {console.log("<<<<< TESTMODULE >>>>> ")};""
-        
