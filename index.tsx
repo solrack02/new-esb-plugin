@@ -5,7 +5,7 @@ import React from 'react';
 import * as RN from 'react-native';
 
 // ---------- import Internal Packs
-import { testModule } from './src/index.ts';
+import { testModule } from './root/src/index.ts';
 
 // ---------- set Main Component
 export default function Router() {
