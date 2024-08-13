@@ -11,7 +11,7 @@ import { testModule } from './root/src/index.ts';
 export default function Router() {
 
 
-  return (<RN.Text>Basic React Component{console.log("AQUI X", {testModule});}</RN.Text>);
+  return (<RN.Text>Basic React Component{console.log("AQUI X", {testModule})}</RN.Text>);
 };
 
 RN.AppRegistry.registerComponent("Router", () => Router);
