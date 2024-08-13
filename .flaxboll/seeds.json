@@ -14,7 +14,7 @@
                     "flaxSystem",
                     "fileSystem"
                 ],
-                "capsCodeText": "\n            // file: !#!path!#!\n            !#!code!#!\n        ",
+                "capsCodeText": "!#!code!#!",
                 "capsCodeInputs": {
                     "sss_fileSystem-0": {
                         "capsIptCodeID": "sss_fileSystem-0",
