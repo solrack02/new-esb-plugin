@@ -1,78 +1,4 @@
 {
-    "sss_fileSystem": {
-        "capsCodeInfo": {
-            "1": {
-                "capsLabel": {
-                    "pt-br": "fileSystem",
-                    "en": "fileSystem"
-                },
-                "capsDescription": {
-                    "pt-br": "",
-                    "en": ""
-                },
-                "capsCodeTypes": [
-                    "flaxSystem",
-                    "fileSystem"
-                ],
-                "capsCodeText": "\n            // file: !#!path!#!\n            !#!code!#!\n        ",
-                "capsCodeInputs": {
-                    "sss_fileSystem-0": {
-                        "capsIptCodeID": "sss_fileSystem-0",
-                        "capsIptPosition": "0",
-                        "capsIptRemoved": false,
-                        "capsIptType": "text",
-                        "capsIptTxtInfo": {
-                            "capsIptTxtDfValue": "noPath",
-                            "capsIptTxtLabel": {
-                                "pt-br": "path",
-                                "en": "path"
-                            },
-                            "capsIptTxtDescription": {
-                                "pt-br": "",
-                                "en": ""
-                            }
-                        }
-                    },
-                    "sss_fileSystem-1": {
-                        "capsIptCodeID": "sss_fileSystem-1",
-                        "capsIptPosition": "1",
-                        "capsIptRemoved": false,
-                        "capsIptType": "capsules",
-                        "capsIptCapsInfo": {
-                            "capsIptCapsLabel": {
-                                "pt-br": "code text",
-                                "en": "code text"
-                            },
-                            "capsIptCapsDescription": {
-                                "pt-br": "",
-                                "en": ""
-                            },
-                            "capsIptCapsDfCode": "// no code to inject",
-                            "capsIptCapsTypesToAdd": [
-                                "string process",
-                                "project"
-                            ]
-                        }
-                    }
-                },
-                "capsCodeVersionID": "1",
-                "capsVersionCreatedAt": {
-                    "seconds": 1669821908,
-                    "nanoseconds": 764000000
-                }
-            }
-        },
-        "capsType": "code",
-        "capsDB": {
-            "capsID": "sss_fileSystem",
-            "capsPrjID": "yyy1",
-            "capsCreatedAt": {
-                "seconds": 1669821908,
-                "nanoseconds": 764000000
-            },
-            "capsUserID": "xxx1"
-        }
-    },
     "sss_dirSystem": {
         "capsCodeInfo": {
             "1": {
@@ -146,10 +72,84 @@
             "capsUserID": "xxx1"
         }
     },
-    "sss_stringValue": {
+    "sss_fileSystem": {
+        "capsCodeInfo": {
+            "1": {
+                "capsLabel": {
+                    "pt-br": "fileSystem",
+                    "en": "fileSystem"
+                },
+                "capsDescription": {
+                    "pt-br": "",
+                    "en": ""
+                },
+                "capsCodeTypes": [
+                    "flaxSystem",
+                    "fileSystem"
+                ],
+                "capsCodeText": "\n            // file: !#!path!#!\n            !#!code!#!\n        ",
+                "capsCodeInputs": {
+                    "sss_fileSystem-0": {
+                        "capsIptCodeID": "sss_fileSystem-0",
+                        "capsIptPosition": "0",
+                        "capsIptRemoved": false,
+                        "capsIptType": "text",
+                        "capsIptTxtInfo": {
+                            "capsIptTxtDfValue": "noPath",
+                            "capsIptTxtLabel": {
+                                "pt-br": "path",
+                                "en": "path"
+                            },
+                            "capsIptTxtDescription": {
+                                "pt-br": "",
+                                "en": ""
+                            }
+                        }
+                    },
+                    "sss_fileSystem-1": {
+                        "capsIptCodeID": "sss_fileSystem-1",
+                        "capsIptPosition": "1",
+                        "capsIptRemoved": false,
+                        "capsIptType": "capsules",
+                        "capsIptCapsInfo": {
+                            "capsIptCapsLabel": {
+                                "pt-br": "code text",
+                                "en": "code text"
+                            },
+                            "capsIptCapsDescription": {
+                                "pt-br": "",
+                                "en": ""
+                            },
+                            "capsIptCapsDfCode": "// no code to inject",
+                            "capsIptCapsTypesToAdd": [
+                                "free value",
+                                "project"
+                            ]
+                        }
+                    }
+                },
+                "capsCodeVersionID": "1",
+                "capsVersionCreatedAt": {
+                    "seconds": 1669821908,
+                    "nanoseconds": 764000000
+                }
+            }
+        },
+        "capsType": "code",
+        "capsDB": {
+            "capsID": "sss_fileSystem",
+            "capsPrjID": "yyy1",
+            "capsCreatedAt": {
+                "seconds": 1669821908,
+                "nanoseconds": 764000000
+            },
+            "capsUserID": "xxx1"
+        }
+    },
+    "sss_freeValue": {
         "capsDB": {
             "capsUserID": "usrn5e3jr2CvvnDpHigA",
-            "capsID": "sss_stringValue",
+            "capsID": "sss_freeValue",
             "capsCreatedAt": {
                 "seconds": 1669821908,
                 "nanoseconds": 766000000
@@ -160,36 +160,35 @@
         "capsCodeInfo": {
             "1": {
                 "capsLabel": {
-                    "pt-br": "valor string",
-                    "en": "string value"
+                    "pt-br": "valor livre",
+                    "en": "free value"
                 },
                 "capsDescription": {
                     "pt-br": "",
                     "en": ""
                 },
                 "capsCodeTypes": [
-                    "string value",
                     "jsValue",
-                    "string process"
+                    "free value"
                 ],
-                "capsCodeText": "\"!#!string value!#!\"",
+                "capsCodeText": "!#!free value!#!",
                 "capsCodeVersionID": "1",
                 "capsCodeInputs": {
-                    "sss_stringValue-0": {
+                    "sss_freeValue-0": {
                         "capsIptType": "text",
                         "capsIptRemoved": false,
-                        "capsIptCodeID": "sss_stringValue-0",
+                        "capsIptCodeID": "sss_freeValue-0",
                         "capsIptPosition": "0",
                         "capsIptTxtInfo": {
                             "capsIptTxtLabel": {
-                                "pt-br": "valor string",
-                                "en": "string value"
+                                "pt-br": "valor livre",
+                                "en": "free value"
                             },
                             "capsIptTxtDescription": {
                                 "pt-br": "",
                                 "en": ""
                             },
-                            "capsIptTxtDfValue": ""
+                            "capsIptTxtDfValue": "undefined"
                         }
                     }
                 },
@@ -198,118 +197,6 @@
                     "nanoseconds": 766000000
                 }
             }
-        }
-    },
-    "ccc_project": {
-        "capsCodeInfo": {
-            "1": {
-                "capsCodeVersionID": "1",
-                "capsVersionCreatedAt": {
-                    "seconds": 1669821908,
-                    "nanoseconds": 764000000
-                },
-                "capsLabel": {
-                    "pt-br": "Projeto",
-                    "en": "Project"
-                },
-                "capsDescription": {
-                    "pt-br": "Cápsula contendo o código para iniciar um projeto.",
-                    "en": "Capsule containing the code to start a project."
-                },
-                "capsCodeTypes": [
-                    "project"
-                ],
-                "capsCodeText": "\n// ---------- import React Packs\nimport React from 'react';\nimport * as RN from 'react-native';\n\n// ---------- import Variables Pack\nimport { create } from 'zustand';\n\n// ---------- import Local Tools\n\n// ---------- set Caps Inputs\nconst currRoute = '!#!initial screen!#!'\n\nconst screens = [\n  !#!Lista de Telas!#!\n]\n\nconst initCt = () => ({\n  !#!Lista de Variáveis!#!\n});\n\nconst arrInitFuncs = [\n  !#!Start Functions!#!\n];\n\n// ---------- set Main Component\nexport default function Router() {\n\n  return (\n    <RN.Text>Ola OLD!</RN.Text>\n  );\n};\n\nRN.AppRegistry.registerComponent(\"Router\", () => Router);\n\nRN.AppRegistry.runApplication(\"Router\", {\nrootTag: document.getElementById(\"root\"),\n});\n",
-                "capsCodeInputs": {
-                    "ccc_project-0": {
-                        "capsIptCodeID": "ccc_project-0",
-                        "capsIptPosition": "0",
-                        "capsIptRemoved": false,
-                        "capsIptType": "text",
-                        "capsIptTxtInfo": {
-                            "capsIptTxtDfValue": "home",
-                            "capsIptTxtLabel": {
-                                "pt-br": "Tela Inicial",
-                                "en": "Initial Screen"
-                            },
-                            "capsIptTxtDescription": {
-                                "pt-br": "Adicione o Caminho de URL da tela que vai iniciar o seu projeto.",
-                                "en": "Add the URL Path of the screen that will start your project."
-                            }
-                        }
-                    },
-                    "ccc_project-1": {
-                        "capsIptCodeID": "ccc_project-1",
-                        "capsIptPosition": "3",
-                        "capsIptRemoved": false,
-                        "capsIptType": "capsules",
-                        "capsIptCapsInfo": {
-                            "capsIptCapsLabel": {
-                                "pt-br": "Lista de Telas",
-                                "en": "Screens List"
-                            },
-                            "capsIptCapsDescription": {
-                                "pt-br": "Adicione Telas para o projeto.",
-                                "en": "Add Screens to the project."
-                            },
-                            "capsIptCapsDfCode": "",
-                            "capsIptCapsTypesToAdd": [
-                                "Tela"
-                            ]
-                        }
-                    },
-                    "ccc_project-2": {
-                        "capsIptCodeID": "ccc_project-2",
-                        "capsIptPosition": "2",
-                        "capsIptRemoved": false,
-                        "capsIptType": "capsules",
-                        "capsIptCapsInfo": {
-                            "capsIptCapsLabel": {
-                                "pt-br": "Lista de Variáveis",
-                                "en": "Variables List"
-                            },
-                            "capsIptCapsDescription": {
-                                "pt-br": "Adicione Variáveis para o projeto.",
-                                "en": "Add Variables to the project."
-                            },
-                            "capsIptCapsDfCode": "true: \"true\"",
-                            "capsIptCapsTypesToAdd": [
-                                "propValue"
-                            ]
-                        }
-                    },
-                    "ccc_project-3": {
-                        "capsIptCodeID": "ccc_project-3",
-                        "capsIptPosition": "1",
-                        "capsIptRemoved": false,
-                        "capsIptType": "capsules",
-                        "capsIptCapsInfo": {
-                            "capsIptCapsLabel": {
-                                "pt-br": "Função de Início",
-                                "en": "Start Function"
-                            },
-                            "capsIptCapsDescription": {
-                                "pt-br": "",
-                                "en": ""
-                            },
-                            "capsIptCapsDfCode": "()=>{}",
-                            "capsIptCapsTypesToAdd": [
-                                "function"
-                            ]
-                        }
-                    }
-                }
-            }
-        },
-        "capsType": "code",
-        "capsDB": {
-            "capsPrjID": "yyy1",
-            "capsCreatedAt": {
-                "seconds": 1669821908,
-                "nanoseconds": 764000000
-            },
-            "capsID": "ccc_project",
-            "capsUserID": "xxx1"
         }
     }
 }
