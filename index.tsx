@@ -9,9 +9,7 @@ import { testModule } from './root/src/index.ts';
 
 // ---------- set Main Component
 export default function Router() {
-
-
-  return (<RN.Text>Basic React Component{console.log("AQUI X", {testModule})}</RN.Text>);
+  return (<RN.Text>Basic React Component</RN.Text>);
 };
 
 RN.AppRegistry.registerComponent("Router", () => Router);
