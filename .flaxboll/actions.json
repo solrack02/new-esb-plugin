@@ -1,1 +1,1 @@
-{"1723646406456":{"actionType":"saveAll","createdAt":"1723646406456","actionID":"1723646406456","userID":"#TEMP","path":"system.capsules.2d6f5653-0c2e-46f0-84ea-049175323280.capsUseCodeInfo.capsUseLabel.en","oldValue":"DynView","newValue":"elements"}}
+{"1723647239727":{"actionType":"saveAll","createdAt":"1723647239727","actionID":"1723647239727","userID":"#TEMP","path":"system.capsules.2d6f5653-0c2e-46f0-84ea-049175323280.capsUseCodeInfo.capsUseInputs.sss_freeValue-0.capsIptTxtValue","oldValue":"const elements = {\n    \n};","newValue":"const elements = {\n    DynView\n};"}}

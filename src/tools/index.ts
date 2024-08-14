@@ -9,6 +9,10 @@ export const tools = () => {
 
   return returnObj;
 };
- const elements = {
-    
+ 
+const elements = {
+    DynView
+};
+ export const DynView = () => {
+  return <>DynView</>;
 };
