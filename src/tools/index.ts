@@ -1,9 +1,14 @@
 
 
 export const tools = () => {
-    console.log("Welcome to the tools!")
-testModule()
-}
- export const testModule =  ( ) =>{
-   console.log("<<<<< TESTMODULE >>>>>")
-}
+  console.log('Welcome to the tools!');
+
+  const returnObj = {
+    elements,
+  };
+
+  return returnObj;
+};
+ const elements = {
+    
+};
