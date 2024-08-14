@@ -14,5 +14,5 @@ const elements = {
     DynView
 };
  export const DynView = () => {
-  return <>DynView</>;
+  return <RN.Text>DynView</RN.Text>;
 };
