@@ -1,5 +1,6 @@
 
 
+import React from 'react';
 import { Text, View } from 'react-native';
  
 export const tools = () => {
@@ -15,11 +16,7 @@ export const tools = () => {
 const elements = {
     DynView
 };
- // ---------- import React Packs
-import React from 'react';
-import { Text, View } from 'react-native';
-
-export const DynView = () => {
+ export const DynView = () => {
   
   return (
     <>
