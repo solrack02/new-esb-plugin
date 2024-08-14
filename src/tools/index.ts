@@ -15,6 +15,17 @@ export const tools = () => {
 const elements = {
     DynView
 };
- export const DynView = () => {
-  return (<Text>DynView</Text>);
+ // ---------- import React Packs
+import React from 'react';
+import { Text, View } from 'react-native';
+
+export const DynView = () => {
+  
+  return (
+    <>
+      <View style={{ height: 10 }} />
+      <Text style={{ color: 'white' }}>{'DynView'}</Text>
+    </>
+  );
 };
+
