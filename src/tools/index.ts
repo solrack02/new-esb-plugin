@@ -3,20 +3,8 @@
 import React from 'react';
 import { Text, View } from 'react-native';
  
-export const tools = () => {
-  console.log('Welcome to the tools!');
 
-  const returnObj = {
-    elements,
-  };
-
-  return returnObj;
-};
- 
-const elements = {
-    DynView
-};
- export const DynView = () => {
+export const DynView = () => {
   
   return (
     <>
@@ -26,3 +14,15 @@ const elements = {
   );
 };
 
+ const elements = {
+    DynView
+};
+ export const tools = () => {
+  console.log('Welcome to the tools!');
+
+  const returnObj = {
+    elements,
+  };
+
+  return returnObj;
+};
