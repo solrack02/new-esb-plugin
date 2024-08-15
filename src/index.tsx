@@ -11,9 +11,9 @@ console.log("AQUI X");
 
  // ---------- import Local Tools
  // import {mapElements} from './tools/base/project/mapElements';
+ import { Project, Screen } from './tools/base/project';
  // import * as functions from './tools/base/functions';
  // import * as Elements from './tools/base/Elements';
- import { Project } from './tools/base/project';
  // import * as jsvals from './tools/base/jsvals';
  // import { props } from './tools/base/props';
  // import * as customs from './tools/customs';
@@ -26,7 +26,39 @@ console.log("AQUI X");
  let args:any = []
 
  const screens = [
- (...args: any) => <RN.View style={{width: '100%',height: '100%',justifyContent: 'center', alignItems: 'center',backgroundColor: '#202'}}><RN.Text style={{color: 'white'}}>Add a Screen to Start</RN.Text></RN.View>
+ 
+ (...args: any) => <Screen pass={{
+ pathScreen:"home",
+ 
+ styles:[
+ {
+ backgroundColor: '#101',
+ justifyContent: 'center',
+ alignItems: 'center',
+ height: '100%',
+ width: '100%',
+ }
+ ],
+ 
+ screenElements:[() => {
+ const textStyle = {
+ fontSize: 20,
+ color: '#fff2',
+ textAlign:'center',
+ maxWidth: 200,
+ // maxWidth: '200px'<= #ATTENTION: Native ERROR! No string!
+ };
+ 
+ return (
+ <RN.Text style={textStyle}>
+ {'Adicione Elementos nessa tela!'}
+ </RN.Text>);
+ }],
+ 
+ startFunctions:[()=>{}],
+ 
+ args,
+ }}/>
  ]
 
  const initCt = () => ({
