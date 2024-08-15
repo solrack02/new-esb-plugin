@@ -352,6 +352,53 @@
     }
   },
  
+  "sss_stringValue": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "sss_stringValue",
+      "capsCreatedAt": { "seconds": 1, "nanoseconds": 7 },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsType": "code",
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "valor string",
+          "en": "string value"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["string value", "jsValue", "string process"],
+        "capsCodeText": "\"!#!string value!#!\"",
+
+        "capsCodeVersionID": "1",
+        "capsCodeInputs": {
+          "sss_stringValue-0": {
+            "capsIptType": "text",
+            "capsIptRemoved": false,
+            "capsIptCodeID": "sss_stringValue-0",
+            "capsIptPosition": "0",
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
+                "pt-br": "valor string",
+                "en": "string value"
+              },
+
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptTxtDfValue": ""
+            }
+          }
+        },
+        "capsVersionCreatedAt": { "seconds": 1, "nanoseconds": 7 }
+      }
+    }
+  },
+ 
   "sss_joinfreeValue": {
     "capsDB": {
       "capsUserID": "usrn5e3jr2CvvnDpHigA",
