@@ -151,7 +151,7 @@
                 "en": "Add Screens to the project."
               },
 
-              "capsIptCapsDfCode": "[]",
+              "capsIptCapsDfCode": "(...args: any) => <RN.Text>Olá Projeto</RN.Text>",
               "capsIptCapsTypesToAdd": ["Tela"]
             }
           },
