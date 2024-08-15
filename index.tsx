@@ -5,28 +5,17 @@ import React from 'react';
 import * as RN from 'react-native';
 
 // ---------- import Internals
-import { SRC } from './src';
- 
-// ---------- set Main Component
-export default function Router() {
-  const stl: RN.ViewStyle = {
-    // backgroundColor: 'blue',
-    backgroundColor: 'green',
-    justifyContent: 'center',
-    alignItems: 'center',
-    width: '100%',
-    height: '100%',
-  };
+import { Router } from './src';
 
-  return (
-    <RN.View style={stl}>
-      <RN.Text style={{ color: 'white' }}>{'1 - Olá MOCK 1!'}</RN.Text>
-      <SRC />
-    </RN.View>
-  );
+export default function App() {
+  return <Router />;
 }
- RN.AppRegistry.registerComponent('Router', () => Router);
 
-RN.AppRegistry.runApplication('Router', {
+RN.AppRegistry.registerComponent('App', () => App);
+
+RN.AppRegistry.runApplication('App', {
   rootTag: document.getElementById('root'),
 });
+ 
+console.log("AQUI X1");
+ console.log("AQUI X2");

@@ -4,16 +4,14 @@ import React from 'react';
 import { Text, View } from 'react-native';
 import { tools } from './tools';
 
-export const SRC = () => {
-  
-  tools()
+export const Router = () => {
+  tools();
 
   return (
-    <>
-      <View style={{ height: 10 }} />
+    <View style={{ width: '100%', height: '100%', backgroundColor: 'indigo' }}>
       <Text style={{ color: 'white' }}>{'Hi from:'}</Text>
-      <Text style={{ color: 'white' }}>{'The SRC Module 1!'}</Text>
-    </>
+      <View style={{ height: 10 }} />
+      <Text style={{ color: 'white' }}>{'The Router 1!'}</Text>
+    </View>
   );
 };
-
