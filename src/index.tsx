@@ -5,26 +5,26 @@ console.log("AQUI X");
  // ---------- import React Packs
  import React from 'react';
  import * as RN from 'react-native';
-
+ 
  // ---------- import Variables Pack
  import { create } from 'zustand';
-
+ 
  // ---------- import Local Tools
  // import {mapElements} from './tools/base/project/mapElements';
  import { Project, Screen } from './tools/base/project';
  // import * as functions from './tools/base/functions';
- // import * as Elements from './tools/base/Elements';
+ import * as Elements from './tools/base/Elements';
  // import * as jsvals from './tools/base/jsvals';
  // import { props } from './tools/base/props';
  // import * as customs from './tools/customs';
  // import * as stls from './tools/base/stls';
  // import { tools } from "./tools";
-
+ 
  // ---------- set Caps Inputs
  const currRoute = 'home'
-
+ 
  let args:any = []
-
+ 
  const screens = [
  
  (...args: any) => <Screen pass={{
@@ -40,39 +40,41 @@ console.log("AQUI X");
  }
  ],
  
- screenElements:[() => {
- const textStyle = {
- fontSize: 20,
- color: '#fff2',
- textAlign:'center',
- maxWidth: 200,
- // maxWidth: '200px'<= #ATTENTION: Native ERROR! No string!
- };
+ screenElements:[(...args:any) => <Elements.Text pass={{
+ arrProps: [
+ {}
+ ],
  
- return (
- <RN.Text style={textStyle}>
- {'Adicione Elementos nessa tela!'}
- </RN.Text>);
- }],
+ arrStyles: [
+ { color: 'black', fontSize: 12, }
+ ],
+ 
+ children: [
+ "Escreva..."
+ ],
+ 
+ args,
+ 
+ }}/>],
  
  startFunctions:[()=>{}],
  
  args,
  }}/>
  ]
-
+ 
  const initCt = () => ({
  true: "true"
  });
  const initObj = initCt();
-
+ 
  const arrInitFuncs = [
  ()=>{}
  ];
-
+ 
  export const useRoutes = create(() => ({ currRoute }));
  export const useData = create(() => initObj);
-
+ 
  // ---------- set Main Component
  export const Router = () => {
  return (
@@ -84,4 +86,4 @@ console.log("AQUI X");
  }}
  />
  );
-};
+ };
