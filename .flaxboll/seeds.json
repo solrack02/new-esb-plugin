@@ -319,7 +319,7 @@
             "capsIptCapsInfo": {
               "capsIptCapsLabel": { "pt-br": "Estilos", "en": "Styles" },
               "capsIptCapsDescription": { "pt-br": "", "en": "" },
-              "capsIptCapsDfCode": "{ color: 'black', fontSize: 12, }",
+              "capsIptCapsDfCode": "{ color: 'white', fontSize: 14, }",
               "capsIptCapsTypesToAdd": ["Estilo Texto"]
             }
           },
