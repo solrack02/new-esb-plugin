@@ -29,7 +29,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "Diretórios e Arquivos",
+                "pt-br": "DiretÃ³rios e Arquivos",
                 "en": "Directories and Files"
               },
               "capsIptCapsDescription": { "pt-br": "", "en": "" },
@@ -137,8 +137,6 @@
       }
     }
   },
- 
-undefined
  
   "sss_freeValue": {
     "capsDB": {
