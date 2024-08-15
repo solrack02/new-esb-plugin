@@ -44,7 +44,7 @@ export const Project = ({ configData }: Tprops) => {
   }, []);
 
   return (
-    <RN.View style={{ flexDirection: 'column', width: '100%' }}>
+    <RN.View style={{ flexDirection: 'column', width: '100%', height: '100%' }}>
       <SafeAreaView
         style={{ width: '100%', height: '100%', overflow: 'hidden' }}
       >
