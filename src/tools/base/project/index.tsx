@@ -11,7 +11,7 @@ import { SafeAreaView, Platform, View } from 'react-native';
 import { mapElements } from './mapElements';
 
 // ---------- export Index Functions
-// export { getStlValues } from './getStlValues';
+export { getStlValues } from './getStlValues';
 // export { getVarValue } from './getVarValue';
 // export { setArgsVars } from './setArgsVars';
 export { mapElements } from './mapElements';
