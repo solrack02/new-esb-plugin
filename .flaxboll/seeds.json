@@ -99,6 +99,169 @@
     }
   },
  
+  "sss_project": {
+    "capsCodeInfo": {
+      "1": {
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": { "seconds": 1, "nanoseconds": 7 },
+
+        "capsLabel": { "pt-br": "Projeto", "en": "Project" },
+        "capsDescription": {
+          "pt-br": "Cápsula contendo o código para iniciar um projeto.",
+          "en": "Capsule containing the code to start a project."
+        },
+        "capsCodeTypes": ["project"],
+
+        "capsCodeText": `
+        // ---------- import React Packs
+        import React from 'react';
+        import * as RN from 'react-native';
+
+        // ---------- import Variables Pack
+        import { create } from 'zustand';
+
+        // ---------- import Local Tools
+        import {mapElements} from './tools/base/project/mapElements';
+        import * as functions from './tools/base/functions';
+        import * as Elements from './tools/base/Elements';
+        import { Project } from './tools/base/project/';
+        import * as jsvals from './tools/base/jsvals';
+        import { props } from './tools/base/props';
+        import * as customs from './tools/customs';
+        import * as stls from './tools/base/stls';
+        import { tools } from "./tools";
+
+        // ---------- set Caps Inputs
+        const currRoute = '!#!initial screen!#!'
+
+        let args:any = []
+
+        const screens = [
+          !#!Lista de Telas!#!
+        ]
+
+        const initCt = () => ({
+          !#!Lista de Variáveis!#!
+        });
+        const initObj = initCt();
+
+        const arrInitFuncs = [
+          !#!Start Functions!#!
+        ];
+
+        export const useRoutes = create(() => ({ currRoute }));
+        export const useData = create(() => initObj);
+
+        // ---------- set Main Component
+        export const Router = () => {
+          return (
+            <Project
+              configData={{
+                screens,
+                initCt,
+                arrInitFuncs,
+              }}
+            />
+          );
+      };`,
+
+        "capsCodeInputs": {
+          "sss_project-0": {
+            "capsIptCodeID": "sss_project-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtDfValue": "home",
+
+              "capsIptTxtLabel": {
+                "pt-br": "Tela Inicial",
+                "en": "Initial Screen"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": "Adicione o Caminho de URL da tela que vai iniciar o seu projeto.",
+                "en": "Add the URL Path of the screen that will start your project."
+              }
+            }
+          },
+
+          "sss_project-1": {
+            "capsIptCodeID": "sss_project-1",
+            "capsIptPosition": "3",
+            "capsIptRemoved": false,
+
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Lista de Telas",
+                "en": "Screens List"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Adicione Telas para o projeto.",
+                "en": "Add Screens to the project."
+              },
+
+              "capsIptCapsDfCode": "[]",
+              "capsIptCapsTypesToAdd": ["Tela"]
+            }
+          },
+
+          "sss_project-2": {
+            "capsIptCodeID": "sss_project-2",
+            "capsIptPosition": "2",
+            "capsIptRemoved": false,
+
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Lista de Variáveis",
+                "en": "Variables List"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Adicione Variáveis para o projeto.",
+                "en": "Add Variables to the project."
+              },
+
+              "capsIptCapsDfCode": "true: \"true\"",
+              "capsIptCapsTypesToAdd": ["propValue"]
+            }
+          },
+
+          "sss_project-3": {
+            "capsIptCodeID": "sss_project-3",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Função de Início",
+                "en": "Start Function"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+
+              "capsIptCapsDfCode": "()=>{}",
+              "capsIptCapsTypesToAdd": ["function"]
+            }
+          }
+        }
+      }
+    },
+
+    "capsType": "code",
+
+    "capsDB": {
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": { "seconds": 1, "nanoseconds": 7 },
+      "capsID": "sss_project",
+      "capsUserID": "xxx1"
+    }
+  },
+ 
   "sss_joinfreeValue": {
     "capsDB": {
       "capsUserID": "usrn5e3jr2CvvnDpHigA",
