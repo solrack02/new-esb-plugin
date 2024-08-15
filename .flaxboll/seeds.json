@@ -29,7 +29,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "DiretÃ³rios e Arquivos",
+                "pt-br": "Diretórios e Arquivos",
                 "en": "Directories and Files"
               },
               "capsIptCapsDescription": { "pt-br": "", "en": "" },
@@ -107,12 +107,12 @@
 
         "capsLabel": { "pt-br": "Projeto", "en": "Project" },
         "capsDescription": {
-          "pt-br": "CÃ¡psula contendo o cÃ³digo para iniciar um projeto.",
+          "pt-br": "Cápsula contendo o código para iniciar um projeto.",
           "en": "Capsule containing the code to start a project."
         },
         "capsCodeTypes": ["project"],
 
-        "capsCodeText": "// ---------- import React Packs\nimport React from 'react';\nimport * as RN from 'react-native';\n\n// ---------- import Variables Pack\nimport { create } from 'zustand';\n\n// ---------- import Local Tools\nimport { mapElements } from './tools/base/project/mapElements';\nimport * as functions from './tools/base/functions';\nimport * as Elements from './tools/base/Elements';\nimport { Project } from './tools/base/project/';\nimport * as jsvals from './tools/base/jsvals';\nimport { props } from './tools/base/props';\nimport * as customs from './tools/customs';\nimport * as stls from './tools/base/stls';\nimport { tools } from \"./tools\";\n\n// ---------- set Caps Inputs\nconst currRoute = 'initial screen';\n\nlet args: any = [];\n\nconst screens = [\n  'Lista de Telas'\n];\n\nconst initCt = () => ({\n  'Lista de VariÃ¡veis'\n});\nconst initObj = initCt();\n\nconst arrInitFuncs = [\n  'Start Functions'\n];\n\nexport const useRoutes = create(() => ({ currRoute }));\nexport const useData = create(() => initObj);\n\n// ---------- set Main Component\nexport const Router = () => {\n  return (\n    <Project\n      configData={{\n        screens,\n        initCt,\n        arrInitFuncs,\n      }}\n    />\n  );\n};",
+        "capsCodeText": "// ---------- import React Packs\nimport React from 'react';\nimport * as RN from 'react-native';\n\n// ---------- import Variables Pack\nimport { create } from 'zustand';\n\n// ---------- import Local Tools\nimport { mapElements } from './tools/base/project/mapElements';\nimport * as functions from './tools/base/functions';\nimport * as Elements from './tools/base/Elements';\nimport { Project } from './tools/base/project/';\nimport * as jsvals from './tools/base/jsvals';\nimport { props } from './tools/base/props';\nimport * as customs from './tools/customs';\nimport * as stls from './tools/base/stls';\nimport { tools } from \"./tools\";\n\n// ---------- set Caps Inputs\nconst currRoute = 'initial screen';\n\nlet args: any = [];\n\nconst screens = [\n  'Lista de Telas'\n];\n\nconst initCt = () => ({\n  'Lista de Variáveis'\n});\nconst initObj = initCt();\n\nconst arrInitFuncs = [\n  'Start Functions'\n];\n\nexport const useRoutes = create(() => ({ currRoute }));\nexport const useData = create(() => initObj);\n\n// ---------- set Main Component\nexport const Router = () => {\n  return (\n    <Project\n      configData={{\n        screens,\n        initCt,\n        arrInitFuncs,\n      }}\n    />\n  );\n};",
 
         "capsCodeInputs": {
           "sss_project-0": {
@@ -164,11 +164,11 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "Lista de VariÃ¡veis",
+                "pt-br": "Lista de Variáveis",
                 "en": "Variables List"
               },
               "capsIptCapsDescription": {
-                "pt-br": "Adicione VariÃ¡veis para o projeto.",
+                "pt-br": "Adicione Variáveis para o projeto.",
                 "en": "Add Variables to the project."
               },
 
@@ -185,7 +185,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "FunÃ§Ã£o de InÃ­cio",
+                "pt-br": "Função de Início",
                 "en": "Start Function"
               },
               "capsIptCapsDescription": {
