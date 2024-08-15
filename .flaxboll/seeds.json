@@ -151,7 +151,7 @@
                 "en": "Add Screens to the project."
               },
 
-              "capsIptCapsDfCode": "(...args: any) => <RN.Text>Olá Projeto</RN.Text>",
+              "capsIptCapsDfCode": "(...args: any) => <RN.View style={{width: '100%',height: '100%',justifyContent: 'center', alignItems: 'center',backgroundColor: '#202'}}><RN.Text style={{color: 'white'}}>Add a Screen to Start</RN.Text></RN.View>",
               "capsIptCapsTypesToAdd": ["Tela"]
             }
           },

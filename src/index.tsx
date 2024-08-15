@@ -26,7 +26,7 @@ console.log("AQUI X");
  let args:any = []
 
  const screens = [
- []
+ (...args: any) => <RN.Text>Olá Projeto</RN.Text>
  ]
 
  const initCt = () => ({
