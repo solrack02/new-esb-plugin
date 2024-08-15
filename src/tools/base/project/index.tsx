@@ -19,6 +19,7 @@ export { mapElements } from './mapElements';
 // export { pathSel } from './pathSel';
 // export { setData } from './setData';
 // export { argSel } from './argSel';
+export { Screen } from './Screen';
 // export { goTo } from './goTo';
 
 type Tprops = {
