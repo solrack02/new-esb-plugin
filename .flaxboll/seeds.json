@@ -1,8 +1,4 @@
-
-
 {
- 
-
   "sss_dirSystem": {
     "capsCodeInfo": {
       "1": {
@@ -29,7 +25,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "Diretórios e Arquivos",
+                "pt-br": "DiretÃ³rios e Arquivos",
                 "en": "Directories and Files"
               },
               "capsIptCapsDescription": { "pt-br": "", "en": "" },
@@ -137,9 +133,6 @@
       }
     }
   },
- 
-undefined
- 
   "sss_freeValue": {
     "capsDB": {
       "capsUserID": "usrn5e3jr2CvvnDpHigA",
