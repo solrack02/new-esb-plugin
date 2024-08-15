@@ -1,5 +1,4 @@
 
-
 // ---------- import React Packs
 import React from 'react';
 import * as RN from 'react-native';
@@ -16,6 +15,3 @@ RN.AppRegistry.registerComponent('App', () => App);
 RN.AppRegistry.runApplication('App', {
   rootTag: document.getElementById('root'),
 });
- 
-console.log("AQUI X1");
- console.log("AQUI X2");
