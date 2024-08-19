@@ -6,11 +6,11 @@
     },
     "projectID": "xxx_dir1",
     "userID": "yOiD5acPfFPoLZpEbfy5",
-    "repositoryUrl": "",
-    "repositoryName": ""
   },
 
   "projectInfo": {
+    "repositoryUrl": "https://github.com/solrack02/new-esb-plugin",
+    "repositoryName": "new-esb-plugin"
     "capsInitID": "xxx_dir1",
     "capsProjectID": "xxx_dir1",
     "groupsControl":{
