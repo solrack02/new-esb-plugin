@@ -28,12 +28,6 @@ jobs:
           echo "userID=$userID" >> $GITHUB_ENV
           echo "projectID=$projectID" >> $GITHUB_ENV
         shell: bash
-
-      - name: Use variables
-        run: |
-          echo "tokenEas is ${{ env.tokenEas }}"
-          echo "userID is ${{ env.userID }}"
-          echo "projectID is ${{ env.projectID }}"
          
       - name: Setup EAS
         uses: expo/expo-github-action@v8
@@ -41,13 +35,21 @@ jobs:
           eas-version: latest
           token: ${{ env.tokenEas }}
 
+      - name: Cache Node.js modules
+        id: yarn-cache
+        uses: actions/cache@v3
+        with:
+          path: |
+            **/node_modules
+            ~/.cache/yarn
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
       - name: Install dependencies
         run: |
           yarn install
           sudo apt-get update && sudo apt-get install -y expect
-
-      - name: Install firebase
-        run: npm install firebase-admin
 
       - name: Create expect script
         run: |
@@ -75,11 +77,6 @@ jobs:
         id: eas_init
         run: |
           ./eas_init_expect.sh > eas_init_output.txt 2>&1 || true
-                    
-      - name: View Output File
-        run: |
-          echo "Conteúdo do arquivo eas_init_output.txt:"
-          cat eas_init_output.txt
 
       - name: Extract Project ID and Write to .env
         id: extract_project_id
@@ -96,11 +93,6 @@ jobs:
           fi
           echo "Project ID extraído: $projectId"
           echo "PROJECT_ID=$projectId" >> .env
-
-      - name: View .env File
-        run: |
-          echo "Conteúdo do arquivo .env:"
-          cat .env
       
       - name: Configure EAS project
         run: |
