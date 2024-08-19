@@ -46,11 +46,11 @@ console.log("AQUI X");
  ],
  
  arrStyles: [
- { color: 'black', fontSize: 12, }
+ { color: 'white', fontSize: 14, }
  ],
  
  children: [
- "Olá Morfos 1!!!"
+ "Olá Morfos !!!2"
  ],
  
  args,
