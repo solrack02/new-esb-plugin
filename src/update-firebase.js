@@ -25,7 +25,7 @@ const updateQrCode = async () => {
 
   const docRef = doc(db, 'users', userId, 'projects', projectId);
   await updateDoc(docRef, {
-    qrcodeUrl: qrCodeUrl
+    qrCodeUrl
   });
 
   console.log('QR Code updated successfully.');
